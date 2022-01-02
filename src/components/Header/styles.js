@@ -34,3 +34,13 @@ export const StyledButton = styled.p`
     border-radius: 100px;
   }
 `;
+export const StyledNavContainer = styled(Container)`
+  &&& {
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+`;

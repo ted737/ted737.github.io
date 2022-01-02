@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { Button, Checkbox, Form, Container } from "semantic-ui-react";
-import { Styledli, StyledButtonText, StyledButton } from "./styles";
+import {
+  Styledli,
+  StyledButtonText,
+  StyledButton,
+  StyledNavContainer,
+} from "./styles";
 import tedxuw_logo from "../../res/images/tedxuw_logo.svg";
 import { NavLink } from "react-router-dom";
+import HamburgerMenu from "../Burger/Burger";
 
 const useScrollPosition = () => {
   // if (typeof window === "undefined") return 500;
@@ -32,6 +38,7 @@ const boxStyles = {
   position: "-webkit-sticky",
   position: "sticky",
   top: "0",
+  left: "0",
   paddingLeft: "0px !important",
   width: "100%",
   zIndex: "10",
@@ -48,8 +55,8 @@ function Header(props) {
         backgroundColor: headerColor,
         ...boxStyles,
       }}>
-      <Container
-        style={{ width: "1040px", marginLeft: "auto", marginRight: "auto" }}>
+      <HamburgerMenu />
+      <StyledNavContainer>
         <ul
           style={{
             marginTop: "0px",
@@ -97,7 +104,7 @@ function Header(props) {
             </StyledButton>
           </li>
         </ul>
-      </Container>
+      </StyledNavContainer>
     </div>
   );
 }

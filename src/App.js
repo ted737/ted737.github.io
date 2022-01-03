@@ -45,6 +45,7 @@ export default function App() {
           <Route path="/Speakers" element={<Speakers />} />
           <Route path="/Faq" element={<Faq />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

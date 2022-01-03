@@ -53,7 +53,7 @@ class Footer extends Component {
                       <div class="column">
                         <ImageGroup>
                           <a
-                            href="https://www.facebook.com/"
+                            href="https://www.facebook.com/TEDxUW/"
                             target="_blank"
                             rel="noopener noreferrer">
                             <img
@@ -70,7 +70,7 @@ class Footer extends Component {
                       <div class="column">
                         <ImageGroup>
                           <a
-                            href="https://www.linkedin.com/"
+                            href="https://ca.linkedin.com/company/tedxuw"
                             target="_blank"
                             rel="noopener noreferrer">
                             <img
@@ -87,7 +87,7 @@ class Footer extends Component {
                       <div class="column">
                         <ImageGroup>
                           <a
-                            href="https://www.instagram.com/"
+                            href="https://www.instagram.com/tedxuw/"
                             target="_blank"
                             rel="noopener noreferrer">
                             <img
@@ -104,7 +104,7 @@ class Footer extends Component {
                       <div class="column">
                         <ImageGroup>
                           <a
-                            href="https://twitter.com/"
+                            href="https://mobile.twitter.com/tedxuw"
                             target="_blank"
                             rel="noopener noreferrer">
                             <img
@@ -121,7 +121,7 @@ class Footer extends Component {
                     </div>
                   </Container>
                   <StyledDescription>
-                    Copyright © 2020 TEDxUW - All Rights Reserved.
+                    Copyright © 2022 TEDxUW - All Rights Reserved.
                     <br />
                     This independent TEDx event is operated under license from
                     TED.
@@ -141,6 +141,17 @@ class Footer extends Component {
                   <StyledHeading style={{ paddingTop: "1.5rem" }}>
                     Past Websites
                   </StyledHeading>
+                  <StyledLink href="http://2020.tedxuw.com/">
+                    TEDxUW 2020{" "}
+                    <img
+                      src={outline}
+                      style={{
+                        width: "18px",
+                        transform: "translate(8px, 4px)",
+                      }}
+                    />
+                    <br />
+                  </StyledLink>
                   <StyledLink href="http://2018.tedxuw.com/">
                     TEDxUW 2018{" "}
                     <img

@@ -73,6 +73,7 @@ export const StyledContainer = styled(Container)`
     @media (max-width: 270px) {
       width: 100%;
     }
+
     padding-bottom: 1rem;
   }
 `;
@@ -80,9 +81,11 @@ export const StyledContainer = styled(Container)`
 export const StyledImg = styled.img`
   &&& {
     width: 235px;
-    border-radius: 50%;
+    height: 235px;
+    border-radius: 117.5px;
     @media (max-width: 235px) {
       width: 100%;
+      border-radius: 50%;
     }
   }
 `;

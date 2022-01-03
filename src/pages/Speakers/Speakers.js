@@ -45,12 +45,13 @@ const Speakers = () => (
       }}>
       <Header color="#2e0807" height="200" />
       <StyledSpeakerContainer>
-        <StyledRedHeader style={{ paddingTop: "64px" }}>
+        <div style={{ paddingTop: "64px" }} />
+        {/* <StyledRedHeader style={{ paddingTop: "64px" }}>
           Coming Soon
-        </StyledRedHeader>
-        <StyledMainHeader>2021 Speaker Lineup </StyledMainHeader>
+        </StyledRedHeader> */}
+        <StyledMainHeader>2022 Speaker Lineup </StyledMainHeader>
         <StyledHeaderDescription>
-          In the meantime, checkout our past speakers below!
+          Check out our 2022 speakers below
         </StyledHeaderDescription>
       </StyledSpeakerContainer>
 
@@ -64,34 +65,26 @@ const Speakers = () => (
       </StyledSpeakerContainer2>
     </div>
     <StyledSpeakerContainer3>
-      <p class="speakers">
+      {/* <p class="speakers">
         <StyledSmallHeader>2021 Speakers</StyledSmallHeader>
-      </p>
-      <SpeakerCard
-        img={andrew_guy2}
-        name="Andrew Guy"
-        talk_name="Find the Good in Humanity"
-        description="Andrew is a MACP candidate, he has earned degrees from Southern
+      </p> */}
+      <div class="speakers">
+        <SpeakerCard
+          img={andrew_guy2}
+          name="Andrew Guy"
+          talk_name="Find the Good in Humanity"
+          description="Andrew is a MACP candidate, he has earned degrees from Southern
         Arkansas University, dual BSc in Medical Biology, Exercise Science, MSc,
         Master of Science in sports medicine (Kinesiology). Andrew is a
         professionally certified educator, Professional Teacher PD facilitator,
         and a former teacher of the year."
-      />
+        />
+      </div>
       <SpeakerCard
         img={anh_le2}
         name="Anh Le"
         talk_name="How to Optimize Your Odds for the Best Outcome?"
-        description="As an Asian female immigrant/ international student, I want to break out of the stereotypes and believe in myself to make a difference in the world. And to make a difference, I want to understand how the world works through the lens of research, insights, and data. Having had a natural talent for science and arts since I was little, I joined science competitions to hackathons from school to university.
-        
-        I am currently a data scientist with a keen interest in developing insights. I love learning about how the world works. I believe a great data scientist must have the speech of a diplomat, the curiosity of a scientist, and a business mindset of an entrepreneur.
-         
-        With a background in Biotech, Engineering, and Finance from the University of Waterloo (both a Bachelor and a Master), my insatiable curiosity and a strong desire to make an impact beyond myself have allowed me to step outside my comfort zones.
-         
-        Outside of work, you can find me playing Pokemon Go and chess, helping out with International Blockchain Olympiad and DarkByte Research, meditation, connecting with people, and biking.
-         
-        Past events I spoke at TEDxUW 2018, Hackthe6ix 2020, Manning Publications – Data Science, Women in Data, CAASA Master of Quantitive Finance, and DataScienceGo.
-         
-        To scale an idea, you need optimized execution and good decision-making. My blog on finance, data science, and blockchain on Medium @thisisanhle (also on other socials) has over 10,000 views a month. Follow me on Medium for my insights.
+        description="As an Asian female immigrant/ international student, Anh wants to break out of the stereotypes and believe in herself to make a difference in the world. And to make a difference, she wants to understand how the world works through the lens of research, insights, and data. Having had a natural talent for science and arts since she was little, she joined science competitions to hackathons from school to university. She is currently a data scientist with a keen interest in developing insights. She loves learning about how the world works. She believes a great data scientist must have the speech of a diplomat, the curiosity of a scientist, and a business mindset of an entrepreneur. With a background in Biotech, Engineering, and Finance from the University of Waterloo (both a Bachelor and a Master), her insatiable curiosity and a strong desire to make an impact beyond herself have allowed her to step outside her comfort zones. Outside of work, you can find Anh playing Pokemon Go and chess, helping out with International Blockchain Olympiad and DarkByte Research, meditation, connecting with people, and biking. Past events she spoke at TEDxUW 2018, Hackthe6ix 2020, Manning Publications – Data Science, Women in Data, CAASA Master of Quantitive Finance, and DataScienceGo. To scale an idea, you need optimized execution and good decision-making. Her blog on finance, data science, and blockchain on Medium @thisisanhle (also on other socials) has over 10,000 views a month. Follow her on Medium for her insights.
         "
       />
       <SpeakerCard

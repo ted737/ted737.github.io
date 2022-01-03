@@ -73,8 +73,8 @@ function Landing(props) {
     <div>
       <Header color="black" />
       <BeforeEvent />
-      {/* <DuringEvent /> */}
-      {/* <AfterEvent /> */}
+      {/* <DuringEvent />
+      <AfterEvent /> */}
       <StyledLandingContainer style={{ marginTop: "90px" }}>
         <StyledTitle>
           <span style={{ textDecoration: "underline 15px solid #e62b1e" }}>
@@ -218,7 +218,7 @@ function Landing(props) {
           <div class="column" className="social_col">
             <ImageGroup>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/TEDxUW/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <StyledSocial
@@ -232,7 +232,7 @@ function Landing(props) {
           <div class="column" className="social_col">
             <ImageGroup>
               <a
-                href="https://www.linkedin.com/"
+                href="https://ca.linkedin.com/company/tedxuw"
                 target="_blank"
                 rel="noopener noreferrer">
                 <StyledSocial
@@ -246,7 +246,7 @@ function Landing(props) {
           <div class="column" className="social_col">
             <ImageGroup>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/tedxuw/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <StyledSocial
@@ -260,7 +260,7 @@ function Landing(props) {
           <div class="column" className="social_col">
             <ImageGroup>
               <a
-                href="https://twitter.com/"
+                href="https://mobile.twitter.com/tedxuw"
                 target="_blank"
                 rel="noopener noreferrer">
                 <StyledSocial

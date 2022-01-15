@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b7b6de7f.chunk.css",
-    "main.js": "/static/js/main.1ced4094.chunk.js",
-    "main.js.map": "/static/js/main.1ced4094.chunk.js.map",
+    "main.js": "/static/js/main.cbd78a8a.chunk.js",
+    "main.js.map": "/static/js/main.cbd78a8a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.02cc780a.js",
     "runtime-main.js.map": "/static/js/runtime-main.02cc780a.js.map",
     "static/js/2.be585443.chunk.js": "/static/js/2.be585443.chunk.js",
@@ -65,16 +65,18 @@
     "static/media/tanner_philp.745731a0.png": "/static/media/tanner_philp.745731a0.png",
     "static/media/tedxuw_logo_2022.262f256c.png": "/static/media/tedxuw_logo_2022.262f256c.png",
     "static/media/thomas_lenhard.79af2a84.png": "/static/media/thomas_lenhard.79af2a84.png",
+    "static/media/toast.2952a120.png": "/static/media/toast.2952a120.png",
     "static/media/twitter.9e07cf53.svg": "/static/media/twitter.9e07cf53.svg",
     "static/media/university_of_waterloo.8a454bd3.svg": "/static/media/university_of_waterloo.8a454bd3.svg",
     "static/media/up.4f560c92.svg": "/static/media/up.4f560c92.svg",
     "static/media/waterloo_arts_endowment_fund.b1ba22b6.svg": "/static/media/waterloo_arts_endowment_fund.b1ba22b6.svg",
+    "static/media/waterlooarts.8e50a30d.png": "/static/media/waterlooarts.8e50a30d.png",
     "static/media/wusa.f5abbb5b.svg": "/static/media/wusa.f5abbb5b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.02cc780a.js",
     "static/js/2.be585443.chunk.js",
     "static/css/main.b7b6de7f.chunk.css",
-    "static/js/main.1ced4094.chunk.js"
+    "static/js/main.cbd78a8a.chunk.js"
   ]
 }

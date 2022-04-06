@@ -61,8 +61,6 @@ export const StyledAboutContainer = styled(Container)`
     text-align: center;
     @media (max-width: 1040px) {
       width: 90%;
-      // margin-left: 1rem;
-      // margin-right: 1rem;
     }
   }
 `;
@@ -92,7 +90,12 @@ export const StyledExecContainer = styled(Container)`
     margin-left: auto;
     margin-right: auto;
     // background: purple;
-    @media (max-width: 900px) {
+
+    @media (max-width: 250px) {
+      padding-left: 0rem;
+      width: 100%;
+    }
+    @media (max-width: 1100px) {
       width: 90%;
     }
   }

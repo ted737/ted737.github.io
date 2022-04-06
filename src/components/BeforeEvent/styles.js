@@ -48,16 +48,16 @@ export const StyledMissionTitle = styled.h1`
     font-weight: 700;
     line-height: 199px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     text-shadow: 4px 4px 25px rgba(249, 214, 103, 0.5);
     margin-bottom: 32px;
     margin-top: 48px;
-    // background: green;
+
     @media (max-width: 1040px) {
       margin-left: 1rem;
       margin-right: 1rem;
     }
-    @media (max-width: 580px) {
+    @media (max-width: 600px) {
       font-size: 20vw;
       line-height: 30vw;
     }
@@ -104,7 +104,6 @@ export const StyledBeforeEventContainer3 = styled(Container)`
     text-align: center;
     @media (max-width: 1040px) {
       width: 90%;
-      padding-left: 1rem;
     }
     @media (max-width: 200px) {
       width: 90%;

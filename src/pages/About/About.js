@@ -175,15 +175,6 @@ const About = () => (
         </div>
         <div class="column" className="col_type1">
           <ExecCard
-            img={leona_kuo}
-            name="Leona Kuo"
-            position="Logistics Manager"
-            description="Leona has been involved with TED since she was young, and she is so excited to join the team this year to help create a fantastic TEDxUW 2022 experience! Since her first year was completely online due to covid, she is particularly excited about this year’s theme."
-            linkedin="https://www.linkedin.com/in/leona-kuo-7b8462157"
-          />
-        </div>
-        <div class="column" className="col_type1">
-          <ExecCard
             img={taneya_raguram}
             name="Taneya Raguram"
             position="Logistics Manager"
@@ -211,7 +202,7 @@ const About = () => (
           <ExecCard
             img={kate_bendall}
             name="Kate Bendall"
-            position="Speaker Relations Associate"
+            position="Speaker Relations Associate and Host"
             description="When deciding how to begin her university experience, Kate first recognized all the different ways in which to learn from others whether it be in classes, extracurriculars or just a chat between friends. TEDxUW is the perfect opportunity to share ideas as a speaker and thrive in open mindedness as a participant. As a new member to both the UW community and the TEDxUW team, Kate is full of passion and ready to ensure an event filled with enlightening speakers. Join her in celebrating the eloquence and expanse of knowledge that TEDxUW highlights this February!"
             linkedin="www.linkedin.com/in/katebendall"
           />
@@ -277,16 +268,7 @@ const About = () => (
             linkedin="https://www.linkedin.com/in/alan-pang-2461aa15b/"
           />
         </div>
-        <div class="column" className="col_type1">
-          <ExecCard
-            img={grace_ren}
-            name="Grace Ren"
-            position="Lead Accountant"
-            description="Grace is a 2A Mathematics/CPA student and she is excited to join the talented TEDxUW team this year. It gives her a chance to contribute her professional knowledge and skills to help enhance the team performance, to organize conferences to share with other students the power of ideas and innovation, and to emphasize community interactions. She hopes to add values to the high-performing team to deliver a memorable experience to everyone this year."
-            // linkedin="https://www.linkedin.com/"
-          />
-        </div>
-        <div class="column" className="col_type1">
+        {/* <div class="column" className="col_type1">
           <ExecCard
             img={mahnoor_fatima}
             name="Mahnoor Fatima"
@@ -294,7 +276,7 @@ const About = () => (
             description="Mahnoor is a third-year student in the Health Sciences program pursuing a Pre-Clinical Specialization. As a partnership manager, Mahnoor will be networking with various organizations to gain sponsorships and initiate collaborations. In addition to that, she will be overlooking the budget for the year."
             linkedin="https://www.linkedin.com/in/mahnoor-fatima00/"
           />
-        </div>
+        </div> */}
       </div>
     </StyledExecContainer>
     <div style={{ paddingBottom: "2rem" }} />

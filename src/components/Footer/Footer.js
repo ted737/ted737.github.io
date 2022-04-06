@@ -132,11 +132,11 @@ class Footer extends Component {
                 <Container style={{ textAlign: "left" }}>
                   <StyledHeading>Contact</StyledHeading>
                   <StyledLink
-                    href="mailto:partnership@tedxuw.com"
+                    href="mailto:experience@tedxuw.com"
                     style={{
                       textDecoration: "underline",
                     }}>
-                    partnership@tedxuw.com
+                    experience@tedxuw.com
                   </StyledLink>
                   <StyledHeading style={{ paddingTop: "1.5rem" }}>
                     Past Websites
@@ -163,7 +163,7 @@ class Footer extends Component {
                     />
                     <br />
                   </StyledLink>
-                  <StyledLink href="https://tedxuw.github.io/2017/">
+                  <StyledLink href="http://2017.tedxuw.com/">
                     TEDxUW 2017{" "}
                     <img
                       src={outline}
@@ -174,7 +174,7 @@ class Footer extends Component {
                     />
                     <br />
                   </StyledLink>
-                  <StyledLink href="https://tedxuw.github.io/2016/">
+                  <StyledLink href="http://2016.tedxuw.com/">
                     TEDxUW 2016{" "}
                     <img
                       src={outline}

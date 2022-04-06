@@ -51,7 +51,7 @@ const Speakers = () => (
         </StyledRedHeader> */}
         <StyledMainHeader>2022 Speaker Lineup </StyledMainHeader>
         <StyledHeaderDescription>
-          Check out our 2022 speakers below
+          Check out our 2022 speakers below!
         </StyledHeaderDescription>
       </StyledSpeakerContainer>
 
@@ -71,7 +71,7 @@ const Speakers = () => (
       <div class="speakers">
         <SpeakerCard
           img={andrew_guy2}
-          name="Andrew Guy"
+          name="Andrew E. Guy"
           talk_name="Find the Good in Humanity"
           description="Andrew is a MACP candidate, he has earned degrees from Southern
         Arkansas University, dual BSc in Medical Biology, Exercise Science, MSc,
@@ -80,17 +80,17 @@ const Speakers = () => (
         and a former teacher of the year."
         />
       </div>
-      <SpeakerCard
+      {/* <SpeakerCard
         img={anh_le2}
         name="Anh Le"
-        talk_name="How to Optimize Your Odds for the Best Outcome?"
+        talk_name="How to Optimize Your Odds for the Best Outcome"
         description="As an Asian female immigrant/ international student, Anh wants to break out of the stereotypes and believe in herself to make a difference in the world. And to make a difference, she wants to understand how the world works through the lens of research, insights, and data. Having had a natural talent for science and arts since she was little, she joined science competitions to hackathons from school to university. She is currently a data scientist with a keen interest in developing insights. She loves learning about how the world works. She believes a great data scientist must have the speech of a diplomat, the curiosity of a scientist, and a business mindset of an entrepreneur. With a background in Biotech, Engineering, and Finance from the University of Waterloo (both a Bachelor and a Master), her insatiable curiosity and a strong desire to make an impact beyond herself have allowed her to step outside her comfort zones. Outside of work, you can find Anh playing Pokemon Go and chess, helping out with International Blockchain Olympiad and DarkByte Research, meditation, connecting with people, and biking. Past events she spoke at TEDxUW 2018, Hackthe6ix 2020, Manning Publications – Data Science, Women in Data, CAASA Master of Quantitive Finance, and DataScienceGo. To scale an idea, you need optimized execution and good decision-making. Her blog on finance, data science, and blockchain on Medium @thisisanhle (also on other socials) has over 10,000 views a month. Follow her on Medium for her insights.
         "
-      />
+      /> */}
       <SpeakerCard
         img={iman_salehi2}
         name="Iman Salehi"
-        talk_name="Can We Treat Cancer During a Pregnancy?"
+        talk_name="Can We Treat Cancer During Pregnancy?"
         description="Iman Salehi is a third-year student at the University of Waterloo studying Health Studies with a minor in Medical Physiology. During his co-operative education work terms, Iman’s primary focus has been on breast cancer research, with a deeper focus on the rare occurrence of breast cancer diagnosed during pregnancy. In his most recent co-op at Mount Sinai Hospital, he collaborated with a multidisciplinary care team including physicians and oncology and obstetrical nurses to develop a comprehensive course on the topic of breast cancer diagnosed during pregnancy. In October, Iman and his research team presented their research and course at the Canadian Association of Nurses in Oncology conference and won first place for the Educational category. Today, Iman and his team continue to expand on their breast cancer in pregnancy course, with the objective to add more cancer sites. The application of Iman’s and his team’s research aims to educate oncology and obstetrical health care professionals on the importance of using evidence-based medicine to shape their clinical practice."
       />
       <SpeakerCard
@@ -101,7 +101,7 @@ const Speakers = () => (
       />
       <SpeakerCard
         img={thomas_lenhard2}
-        name="Thomas Lenhard"
+        name="Lenny Lenhard"
         talk_name="Cry Like A Man: Modeling Positive Masculinity"
         description="Lenny Lenhard is the founder of the Modern Manhood project, which works with Montreal high schoolers to positively reimagine what it means to be a man. Rather than tell boys who they should be, the program helps boys build the self-confidence and emotional literacy to express an authentic version of themselves, free from the constraints that patriarchy imposes upon us all. Operating with a core set of lesson plans, the program - run by men, for men - discusses topics ranging from body image to sex and beyond. As a recent McGill graduate, his insights are informed by his own experiences, as well as his background in sociology - a domain which has challenged him to question how people operate in systems we take for granted."
       />
@@ -111,7 +111,7 @@ const Speakers = () => (
         talk_name="Choose Love, Not Fear"
         description="The founder of The Costa Group and Change in Motion. Chris has figured out how to turn the most adversity into an engine for positive change. Both for himself and his community. Throughout his life he’s experienced violence, incarceration, and addiction – and perhaps most difficult for him; he made choices which kept him away from his passion as an athlete. Now 20 years later, he’s not only overcome his past but he’s speaking out against domestic violence. He used sport to reconnect with his past, heal it and use that experience to help his local community. He is a competitive middle-distance runner who’s competed internationally for Canada as a master’s athlete and kickboxer."
       />
-      <SpeakerCard
+      {/* <SpeakerCard
         img={tanner_philp2}
         name="Tanner Philp"
         talk_name="Enter the Metaverse"
@@ -119,7 +119,7 @@ const Speakers = () => (
  
         Outside of his professional experience Tanner has been an early contributor to some of the leading cryptocurrency projects, dating back to 2014. He also served as a three time captain for the Laurier Varsity Football Team where he was also an Academic All Canadian. While at Laurier Tanner was the Head of Student Athlete Academic Success, a lab instructor for Business, Calculus, and Economics, and the VP of the Lettermen Association - a group dedicated to community outreach for Laurier Athletics. 
         "
-      />
+      /> */}
     </StyledSpeakerContainer3>
     <StyledDivider />
   </section>
